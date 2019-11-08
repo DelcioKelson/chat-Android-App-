@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "317850529552",
+    "firebase_url": "https://chatamigavel-ubip.firebaseio.com",
+    "project_id": "chatamigavel-ubip",
+    "storage_bucket": "chatamigavel-ubip.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317850529552:android:172943402cab495505bf95",
+        "android_client_info": {
+          "package_name": "pmd.di.ubi.pt.chatamigavel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317850529552-ucdv12saqnoohfrn5uq8qv1gjg9g2d74.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pmd.di.ubi.pt.chatamigavel",
+            "certificate_hash": "ccf985dd4bf3354a4a5131715fc2c24783b50e21"
+          }
+        },
+        {
+          "client_id": "317850529552-c1obe8efr9viei6i228130ii90iq5t01.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd9F1cu8JJrHwjuF5RKDdRkcbz_rP5cpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317850529552-c1obe8efr9viei6i228130ii90iq5t01.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

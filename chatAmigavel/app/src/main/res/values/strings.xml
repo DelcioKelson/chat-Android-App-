@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">chatAmigavel</string>
+    <string name="send_button">Enviar</string>
+    <string name="escrever_espaco">mensagem ...</string>
+</resources>
