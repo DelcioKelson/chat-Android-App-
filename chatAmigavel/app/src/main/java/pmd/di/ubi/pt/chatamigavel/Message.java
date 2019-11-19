@@ -1,20 +1,44 @@
 package pmd.di.ubi.pt.chatamigavel;
 
 public class Message {
-    private String text; // message body
-    private boolean belongsToCurrentUser; // is this message sent by us?
+    private String messageText;
+    private int idSender;
+    private String Id;
 
-    public Message(String text, boolean belongsToCurrentUser) {
-        this.text = text;
-        this.belongsToCurrentUser = belongsToCurrentUser;
+    public Message() {
+    }
+    public String getId() {
+        return Id;
     }
 
-    public String getText() {
-        return text;
+    public void setId(String id) {
+        Id = id;
+    }
+
+    public Message(String messageText, int idSender) {
+        this.messageText = messageText;
+        this.idSender = idSender;
     }
 
 
-    public boolean isBelongsToCurrentUser() {
-        return belongsToCurrentUser;
+
+    public String getMessageText() {
+        return messageText;
     }
+
+    public void setMessageText(String messageText) {
+        this.messageText = messageText;
+    }
+
+
+
+    public int getIdSender() {
+        return idSender;
+    }
+
+    public void setIdSender(int idSender) {
+        this.idSender = idSender;
+    }
+
+
 }
